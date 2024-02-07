@@ -30,7 +30,7 @@ const LoginPage = () => {
             },
           }
         );
-        navigate('/upload')
+        navigate('/dashboard')
 
         window.sessionStorage.setItem('name',res.data.name)
         window.sessionStorage.setItem('picture',res.data.picture)
